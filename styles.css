@@ -55,6 +55,8 @@ html {
   text-transform: uppercase;
   margin-bottom: 10px;
   font-family: "Montserrat", sans-serif;
+  max-width: 100%;
+  min-width: 0;
 }
 
 .main-title {
@@ -63,6 +65,8 @@ html {
   line-height: 1.1;
   margin: 0;
   font-family: "Montserrat", sans-serif;
+  max-width: 100%;
+  min-width: 0;
 }
 
 .description {
@@ -70,6 +74,8 @@ html {
   letter-spacing: 0.0625rem;
   margin-top: 20px;
   opacity: 0.8;
+  max-width: 100%;
+  min-width: 0;
 }
 
 .about {
@@ -371,5 +377,123 @@ form {
   transform: scale(1);
 }
 ::-webkit-scrollbar {
-  display: none; /* Menghilangkan scrollbar di browser berbasis Webkit (Chrome, Safari, dll.) */
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    padding: 20px;
+  }
+
+  .hero {
+    margin: 50px 0;
+  }
+
+  .about {
+    padding: 20px;
+  }
+
+  .facility-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .map-and-form {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .recommendations-scroll {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .facility-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .map-and-form {
+    grid-template-columns: 1fr;
+  }
+
+  .recommendations-scroll {
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .hero {
+    margin: 20px 0;
+  }
+  .subtitle {
+    font-size: 2rem;
+    margin-bottom: 8px;
+  }
+
+  .main-title {
+    font-size: 4rem;
+    margin: 0;
+  }
+
+  .description {
+    font-size: 0.875rem;
+    margin-top: 15px;
+  }
+
+  .section-title {
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+  }
+
+  .section-description {
+    font-size: 0.875rem;
+    margin-bottom: 15px;
+  }
+
+  .card-facility-title {
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
+
+  .card-facility-description {
+    font-size: 0.75rem;
+  }
+
+  .form-title h2 {
+    font-size: 1.25rem;
+  }
+
+  .form-title p {
+    font-size: 0.75rem;
+  }
+
+  .form-input input {
+    font-size: 0.75rem;
+    padding: 8px;
+  }
+
+  .total h3 {
+    font-size: 0.875rem;
+  }
+
+  .total p {
+    font-size: 1rem;
+  }
+
+  .button-form {
+    font-size: 14px;
+    padding: 0.5em 0.75em;
+  }
+
+  .card-recommendations-title {
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
+
+  .card-recommendations-description {
+    font-size: 0.75rem;
+  }
+
+  .button-detail {
+    font-size: 14px;
+    padding: 0.5em 0.75em;
+  }
 }

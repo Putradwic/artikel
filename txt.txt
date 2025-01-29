@@ -1,0 +1,30 @@
+
+
+            
+
+<form action="#">
+                    <div class="form-title">
+                        <h2>Rp 3.000.000</h2>
+                        <h4>/ orang</h4>
+                    </div>
+                    <div class="form-input">
+                        <input type="text" name="name" placeholder="Nama Lengkap">
+                        <input type="email" name="email" placeholder="Email">
+                        <input type="tel" name="tel" placeholder="Nomor Telepon">
+                        <input type="date" name="date" placeholder="Tanggal Keberangkatan">
+                        <input type="number" name="person" placeholder="Jumlah Orang">
+                        <label for="rute">Pilih Rute:</label>
+                        <select id="rute" name="rute">
+                            <option value="jakarta-bali">Jakarta - Bali</option>
+                            <option value="jakarta-yogyakarta">Jakarta - Yogyakarta</option>
+                            <option value="jakarta-makassar">Jakarta - Makassar</option>
+                            <option value="jakarta-pontianak">Jakarta - Pontianak</option>
+                            <option value="lainnya">Lainnya</option>
+                          </select>
+                        <div class="total">
+                            <h3>Total</h3>
+                            <p>Rp 9.000.000</p>
+                        </div>
+                        <button type="submit" class="button-form">Pesan Sekarang</button>
+                    </div>
+                </form>

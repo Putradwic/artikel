@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+/* Reset dan Font */
+>>>>>>> 57588297f7af735058821534f0568525f4dcd46e
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap");
 
 body,
@@ -6,6 +10,7 @@ html {
   padding: 0;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
+<<<<<<< HEAD
   height: auto;
   width: 100%;
   overflow-x: hidden;
@@ -14,6 +19,8 @@ html {
 a{
   text-decoration: none;
   color: #000;
+=======
+>>>>>>> 57588297f7af735058821534f0568525f4dcd46e
 }
 
 .header {
@@ -132,15 +139,22 @@ a{
   background-color: #f9f9f9;
   border-radius: 10px;
   overflow: hidden;
+<<<<<<< HEAD
   transition: all 0.3s ease-in-out;
+=======
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+>>>>>>> 57588297f7af735058821534f0568525f4dcd46e
   border: 1.5px solid #ddd;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
+<<<<<<< HEAD
 .card-facility:hover {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
 }
 
+=======
+>>>>>>> 57588297f7af735058821534f0568525f4dcd46e
 .card-facility img {
   width: 100%;
   height: 200px;
@@ -246,7 +260,11 @@ form {
 
 .total p {
   font-size: 1.5rem;
+<<<<<<< HEAD
   color: #383838;
+=======
+  color: rgb(0, 255, 64);
+>>>>>>> 57588297f7af735058821534f0568525f4dcd46e
   font-weight: bold;
 }
 
@@ -267,6 +285,7 @@ form {
   font-weight: bold;
   font-family: "Open Sans", sans-serif;
 
+<<<<<<< HEAD
   background: #737379;
   color: hsl(0, 0%, 90%);
   border: none;
@@ -277,6 +296,38 @@ form {
 .button-form:hover {
   box-shadow: 0.4px 1px 4px rgba(0, 0, 0, 0.8);
   transform: translateY(-2px);
+=======
+  background: linear-gradient(
+    140deg,
+    hsl(240, 40%, 50%) 20%,
+    hsl(240, 40%, 60%) 100%
+  );
+  color: hsl(0, 0%, 90%);
+  border: none;
+  box-shadow: inset 0.4px 1px 4px rgba(0, 0, 0, 0.5);
+  transition: all 0.1s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.button-form:hover {
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.4);
+  box-shadow: inset 0.4px 1px 4px rgba(0, 0, 0, 0.5),
+    2px 4px 8px rgba(0, 0, 0, 0.3);
+  transform: scale(1.1);
+}
+
+.button-form:active {
+  background: linear-gradient(
+    140deg,
+    hsl(240, 40%, 40%) 20%,
+    hsl(240, 40%, 50%) 100%
+  );
+  box-shadow: inset 0.4px 1px 8px rgba(0, 0, 0, 0.5),
+    0px 0px 8px rgba(0, 0, 0, 0.3);
+  text-shadow: 0px 0px 20px rgba(255, 255, 255, 1);
+  color: hsl(0, 0%, 100%);
+  letter-spacing: 0.1em;
+  transform: scale(1);
+>>>>>>> 57588297f7af735058821534f0568525f4dcd46e
 }
 
 .recommendations {
@@ -368,6 +419,7 @@ a {
   font-weight: bold;
   font-family: "Open Sans", sans-serif;
 
+<<<<<<< HEAD
   background: #343434;
   color: hsl(0, 0%, 90%);
   border: none;
@@ -381,6 +433,39 @@ a {
   transform: scale(1.01);
 }
 
+=======
+  background: linear-gradient(
+    140deg,
+    hsl(240, 40%, 50%) 20%,
+    hsl(240, 40%, 60%) 100%
+  );
+  color: hsl(0, 0%, 90%);
+  border: none;
+  box-shadow: inset 0.4px 1px 4px rgba(0, 0, 0, 0.5);
+  transition: all 0.1s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.button-detail:hover {
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.4);
+  box-shadow: inset 0.4px 1px 4px rgba(0, 0, 0, 0.5),
+    2px 4px 8px rgba(0, 0, 0, 0.3);
+  transform: scale(1.1);
+}
+
+.button-detail:active {
+  background: linear-gradient(
+    140deg,
+    hsl(240, 40%, 40%) 20%,
+    hsl(240, 40%, 50%) 100%
+  );
+  box-shadow: inset 0.4px 1px 8px rgba(0, 0, 0, 0.5),
+    0px 0px 8px rgba(0, 0, 0, 0.3);
+  text-shadow: 0px 0px 20px rgba(255, 255, 255, 1);
+  color: hsl(0, 0%, 100%);
+  letter-spacing: 0.1em;
+  transform: scale(1);
+}
+>>>>>>> 57588297f7af735058821534f0568525f4dcd46e
 ::-webkit-scrollbar {
   display: none;
 }
@@ -402,11 +487,20 @@ footer {
 }
 
 .footer-content {
+<<<<<<< HEAD
   flex: 1;
   min-width: 200px;
   text-align: center;
 }
 
+=======
+  flex: 1; 
+  min-width: 200px; 
+  text-align: center;
+}
+
+
+>>>>>>> 57588297f7af735058821534f0568525f4dcd46e
 .footer-content h3 {
   font-size: 1.5rem;
   margin-bottom: 15px;
@@ -414,6 +508,10 @@ footer {
   font-family: "Montserrat", sans-serif;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 57588297f7af735058821534f0568525f4dcd46e
 .footer-content p {
   font-size: 0.9rem;
   margin-bottom: 10px;
@@ -449,6 +547,10 @@ footer {
   color: #b3b3b3;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 57588297f7af735058821534f0568525f4dcd46e
 @media screen and (max-width: 768px) {
   .navbar {
     padding: 20px;
@@ -557,6 +659,7 @@ footer {
   }
   .section-title-recommendation {
     display: flex;
+<<<<<<< HEAD
     flex-direction: column;
     align-items: flex-start;
   }
@@ -567,17 +670,38 @@ footer {
     margin: 0;
   }
 
+=======
+    flex-direction: column; 
+    align-items: flex-start;
+  }
+  
+  .section-title-recommendation h2 {
+    font-size: 24px; 
+    color: #000;
+    margin: 0; 
+  }
+  
+>>>>>>> 57588297f7af735058821534f0568525f4dcd46e
   .section-title-recommendation a {
     font-size: 16px;
     color: #4d4db3;
     text-decoration: none;
   }
+<<<<<<< HEAD
 
   .section-title-recommendation a:hover {
     color: #000;
     text-decoration: underline;
   }
 
+=======
+  
+  .section-title-recommendation a:hover {
+    color: #000; 
+    text-decoration: underline;
+  }
+  
+>>>>>>> 57588297f7af735058821534f0568525f4dcd46e
   .card-recommendations-title {
     font-size: 1rem;
     margin-bottom: 8px;

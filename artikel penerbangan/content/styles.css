@@ -6,6 +6,7 @@ html {
   padding: 0;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
+<<<<<<< HEAD
   height: auto;
   width: 100%;
   overflow-x: hidden;
@@ -13,6 +14,8 @@ html {
 
 a{
   color: #000;
+=======
+>>>>>>> 57588297f7af735058821534f0568525f4dcd46e
 }
 
 .header {
@@ -134,15 +137,22 @@ a{
   background-color: #f9f9f9;
   border-radius: 10px;
   overflow: hidden;
+<<<<<<< HEAD
   transition: all 0.3s ease-in-out;
+=======
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+>>>>>>> 57588297f7af735058821534f0568525f4dcd46e
   border: 1.5px solid #ddd;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
+<<<<<<< HEAD
 .card-route:hover {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
 }
 
+=======
+>>>>>>> 57588297f7af735058821534f0568525f4dcd46e
 .card-route img {
   width: 100%;
   height: 250px;
@@ -268,11 +278,18 @@ select option {
 
 .total p {
   font-size: 1.5rem;
+<<<<<<< HEAD
   color: #383838;
   font-weight: bold;
 }
 
 
+=======
+  color: rgb(0, 255, 64);
+  font-weight: bold;
+}
+
+>>>>>>> 57588297f7af735058821534f0568525f4dcd46e
 .button-form {
   cursor: pointer;
   padding: 0.7em 1em;
@@ -288,6 +305,7 @@ select option {
   letter-spacing: 0.05em;
   line-height: 1;
   font-weight: bold;
+<<<<<<< HEAD
   font-family: "Open Sans", sans-serif;
 
   background: #737379;
@@ -300,6 +318,39 @@ select option {
 .button-form:hover {
   box-shadow: 0.4px 1px 4px rgba(0, 0, 0, 0.8);
   transform: translateY(-2px);
+=======
+
+  background: linear-gradient(
+    140deg,
+    hsl(240, 40%, 50%) 20%,
+    hsl(240, 40%, 60%) 100%
+  );
+  color: hsl(0, 0%, 90%);
+  border: none;
+  box-shadow: inset 0.4px 1px 4px rgba(0, 0, 0, 0.5);
+  transition: all 0.1s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.button-form:hover {
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.4);
+  box-shadow: inset 0.4px 1px 4px rgba(0, 0, 0, 0.5),
+    2px 4px 8px rgba(0, 0, 0, 0.3);
+  transform: scale(1.1);
+}
+
+.button-form:active {
+  background: linear-gradient(
+    140deg,
+    hsl(240, 40%, 40%) 20%,
+    hsl(240, 40%, 50%) 100%
+  );
+  box-shadow: inset 0.4px 1px 8px rgba(0, 0, 0, 0.5),
+    0px 0px 8px rgba(0, 0, 0, 0.3);
+  text-shadow: 0px 0px 20px rgba(255, 255, 255, 1);
+  color: hsl(0, 0%, 100%);
+  letter-spacing: 0.1em;
+  transform: scale(1);
+>>>>>>> 57588297f7af735058821534f0568525f4dcd46e
 }
 
 .recommendations {
@@ -340,7 +391,10 @@ a {
   overflow-x: auto;
   gap: 20px;
   padding: 20px 0;
+<<<<<<< HEAD
   overflow-y: hidden;
+=======
+>>>>>>> 57588297f7af735058821534f0568525f4dcd46e
 }
 
 .card-facility {
@@ -350,12 +404,15 @@ a {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border: 1.5px solid #ddd;
   min-width: 350px;
+<<<<<<< HEAD
   transition: all 0.3s ease-in-out;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .card-facility:hover {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+=======
+>>>>>>> 57588297f7af735058821534f0568525f4dcd46e
 }
 
 .card-facility img {
@@ -472,6 +529,7 @@ a {
   letter-spacing: 0.05em;
   line-height: 1;
   font-weight: bold;
+<<<<<<< HEAD
   font-family: "Open Sans", sans-serif;
 
   background: #343434;
@@ -485,6 +543,39 @@ a {
   box-shadow: inset 0.4px 1px 4px rgba(0, 0, 0, 0.5),
     2px 4px 8px rgba(0, 0, 0, 0.3);
   transform: scale(1.01);
+=======
+
+  background: linear-gradient(
+    140deg,
+    hsl(240, 40%, 50%) 20%,
+    hsl(240, 40%, 60%) 100%
+  );
+  color: hsl(0, 0%, 90%);
+  border: none;
+  box-shadow: inset 0.4px 1px 4px rgba(0, 0, 0, 0.5);
+  transition: all 0.1s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.button-detail:hover {
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.4);
+  box-shadow: inset 0.4px 1px 4px rgba(0, 0, 0, 0.5),
+    2px 4px 8px rgba(0, 0, 0, 0.3);
+  transform: scale(1.1);
+}
+
+.button-detail:active {
+  background: linear-gradient(
+    140deg,
+    hsl(240, 40%, 40%) 20%,
+    hsl(240, 40%, 50%) 100%
+  );
+  box-shadow: inset 0.4px 1px 8px rgba(0, 0, 0, 0.5),
+    0px 0px 8px rgba(0, 0, 0, 0.3);
+  text-shadow: 0px 0px 20px rgba(255, 255, 255, 1);
+  color: hsl(0, 0%, 100%);
+  letter-spacing: 0.1em;
+  transform: scale(1);
+>>>>>>> 57588297f7af735058821534f0568525f4dcd46e
 }
 ::-webkit-scrollbar {
   display: none;
@@ -661,6 +752,13 @@ footer {
     font-size: 0.875rem;
   }
 
+<<<<<<< HEAD
+=======
+  .total p {
+    font-size: 1rem;
+  }
+
+>>>>>>> 57588297f7af735058821534f0568525f4dcd46e
   .button-form {
     font-size: 14px;
     padding: 0.5em 0.75em;
